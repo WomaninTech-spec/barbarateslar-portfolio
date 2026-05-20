@@ -87,6 +87,17 @@ const rssHref = getRelativeLocaleUrl(
     <slot name="head" />
 
     {
+      import.meta.env.PUBLIC_PLAUSIBLE_DOMAIN && (
+        <script
+          is:inline
+          defer
+          data-domain={import.meta.env.PUBLIC_PLAUSIBLE_DOMAIN}
+          src="https://plausible.io/js/script.js"
+        />
+      )
+    }
+
+    {
       site.googleVerification && (
         <meta
           name="google-site-verification"

@@ -69,6 +69,11 @@ export default defineConfig({
         context: "client",
         optional: true,
       }),
+      PUBLIC_PLAUSIBLE_DOMAIN: envField.string({
+        access: "public",
+        context: "client",
+        optional: true,
+      }),
     },
   },
   experimental: {
