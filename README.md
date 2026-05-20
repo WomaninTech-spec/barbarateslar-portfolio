@@ -61,6 +61,12 @@ pnpm build && pnpm preview
 
 ---
 
+## 📚 Learning in Public
+
+AI fundamentals, architecture patterns, and lessons learned — documented publicly at **[techherway.org](https://techherway.org)**.
+
+---
+
 ## 🔗 Capstone Projects
 
 | Project | Description |
@@ -78,6 +84,6 @@ MIT — see [`LICENSE`](./LICENSE).
 
 <div align="center">
 
-**[🌐 Visit the site](https://womanintech-spec.github.io/barbarateslar-portfolio/) · [💼 LinkedIn](https://www.linkedin.com/in/barbarateslar/?locale=en) · [🐙 GitHub](https://github.com/WomaninTech-spec)**
+**[🌐 Visit the site](https://womanintech-spec.github.io/barbarateslar-portfolio/) · [📚 TechHerWay](https://techherway.org) · [💼 LinkedIn](https://www.linkedin.com/in/barbarateslar/?locale=en) · [🐙 GitHub](https://github.com/WomaninTech-spec)**
 
 </div>
