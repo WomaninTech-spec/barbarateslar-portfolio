@@ -66,6 +66,7 @@ pnpm build && pnpm preview
 | Project | Description |
 |---------|-------------|
 | [🏭 Augmented Software Factory](https://github.com/WomaninTech-spec/augmented-software-factory) | Reference platform for AI-augmented delivery: CI/CD with AI agents, LLM observability, AI-specific SLOs |
+| [🧪 ShopLLM Gateway](https://github.com/WomaninTech-spec/shopllm-gateway) | LLM gateway built for e-commerce: prompt routing, cost control, and model abstraction for AI-powered shopping features |
 
 ---
 
