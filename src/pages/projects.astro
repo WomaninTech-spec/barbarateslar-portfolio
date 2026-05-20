@@ -1,0 +1,53 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import Header from "@/components/Header.astro";
+import Footer from "@/components/Footer.astro";
+
+const projects = [
+  {
+    title: "shopllm-gateway",
+    description:
+      "LLM gateway for e-commerce with cost management, observability and multi-model fallback.",
+    stack: ["Python", "FastAPI", "OpenAI", "Langfuse"],
+    github: "https://github.com/WomaninTech-spec/shopllm-gateway",
+    status: "🚧 In progress",
+  },
+  {
+    title: "augmented-software-factory",
+    description:
+      "Reference platform: CI/CD pipeline with AI agents, GitOps, LLM observability, SLOs including AI output quality.",
+    stack: ["Kubernetes", "Terraform", "ArgoCD", "Langfuse", "OpenTelemetry"],
+    github: "https://github.com/WomaninTech-spec/augmented-software-factory",
+    status: "🚧 Coming soon",
+  },
+];
+---
+
+<Layout title="Projects">
+  <Header />
+  <main class="mx-auto w-full max-w-3xl px-4 pb-12">
+    <h1 class="text-2xl font-semibold sm:text-3xl my-8">Projects</h1>
+    <div class="space-y-6">
+      {
+        projects.map(p => (
+          <article class="border rounded-lg p-6 hover:shadow-md transition">
+            <div class="flex justify-between items-start mb-2">
+              <h2 class="text-xl font-bold">{p.title}</h2>
+              <span class="text-sm">{p.status}</span>
+            </div>
+            <p class="mb-3">{p.description}</p>
+            <div class="flex flex-wrap gap-2 mb-3">
+              {p.stack.map(tech => (
+                <span class="text-xs px-2 py-1 bg-skin-card rounded">{tech}</span>
+              ))}
+            </div>
+            <a href={p.github} class="text-sm underline" target="_blank">
+              → View on GitHub
+            </a>
+          </article>
+        ))
+      }
+    </div>
+  </main>
+  <Footer />
+</Layout>
