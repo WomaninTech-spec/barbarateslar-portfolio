@@ -33,7 +33,7 @@ When an e-commerce team integrates LLMs — augmented search, recommendations, c
 
 ### Observability isn't optional — it's the product
 
-With a deterministic service, you monitor availability and latency. With an LLM, you also need to monitor *what it says*. A 200ms response that confidently hallucinates a product reference is worse than a timeout. Langfuse forces you to treat every completion as a traceable artifact, not a black box.
+With a deterministic service, you monitor availability and latency. With an LLM, you also need to monitor _what it says_. A 200ms response that confidently hallucinates a product reference is worse than a timeout. Langfuse forces you to treat every completion as a traceable artifact, not a black box.
 
 ### Cost is a feature, not a metric
 
@@ -41,7 +41,7 @@ Routing all traffic to GPT-4o because it "works better" is fine in a prototype. 
 
 ### Semantic caching is harder than it looks
 
-Caching by exact prompt is easy. Caching by *intent* — recognising that "red running shoes size 42" and "42 size red sneakers for running" should return the same cached result — requires embedding similarity thresholds that you have to tune empirically. Too loose: stale answers. Too tight: no cache hits.
+Caching by exact prompt is easy. Caching by _intent_ — recognising that "red running shoes size 42" and "42 size red sneakers for running" should return the same cached result — requires embedding similarity thresholds that you have to tune empirically. Too loose: stale answers. Too tight: no cache hits.
 
 ### Fallback logic needs its own SLO
 
