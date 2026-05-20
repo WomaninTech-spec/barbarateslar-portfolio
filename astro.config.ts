@@ -28,8 +28,8 @@ export default defineConfig({
     }),
   ],
   i18n: {
-    locales: ["en"],
-    defaultLocale: "en",
+    locales: ["fr"],
+    defaultLocale: "fr",
     routing: {
       prefixDefaultLocale: false,
     },
