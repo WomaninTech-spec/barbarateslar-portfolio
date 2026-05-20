@@ -1,5 +1,5 @@
 export const SITE = {
-  website: "https://womanintech-spec.github.io/portfolio/",
+  website: "https://womanintech-spec.github.io/barbarateslar-portfolio/",
   author: "Barbara Teslar",
   profile: "https://github.com/WomaninTech-spec",
   desc: "Platform Engineering Manager spécialisée dans l'IA. Je pilote des équipes et des plateformes où humains et agents IA collaborent pour accélérer la delivery.",

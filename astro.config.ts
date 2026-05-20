@@ -19,7 +19,7 @@ import config from "./astro-paper.config";
 
 export default defineConfig({
   site: "https://womanintech-spec.github.io",
-  base: "/portfolio",
+  base: "/barbarateslar-portfolio",
   integrations: [
     mdx(),
     sitemap({
